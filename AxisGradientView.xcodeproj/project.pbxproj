@@ -15,6 +15,7 @@
 		0B1C17E021930A0500012CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C17DF21930A0500012CF7 /* main.m */; };
 		0B1C17EA21930A0500012CF7 /* AxisGradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C17E921930A0500012CF7 /* AxisGradientViewTests.m */; };
 		0B1C17F521930A0500012CF7 /* AxisGradientViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C17F421930A0500012CF7 /* AxisGradientViewUITests.m */; };
+		0B1C180521930A5E00012CF7 /* AxisGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C180321930A5E00012CF7 /* AxisGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0B1C17F021930A0500012CF7 /* AxisGradientViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxisGradientViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1C17F421930A0500012CF7 /* AxisGradientViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxisGradientViewUITests.m; sourceTree = "<group>"; };
 		0B1C17F621930A0500012CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1C180321930A5E00012CF7 /* AxisGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisGradientView.m; sourceTree = "<group>"; };
+		0B1C180421930A5E00012CF7 /* AxisGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisGradientView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		0B1C17CF21930A0400012CF7 /* AxisGradientView */ = {
 			isa = PBXGroup;
 			children = (
+				0B1C180221930A1300012CF7 /* DevelopmentPod */,
 				0B1C17D021930A0400012CF7 /* AppDelegate.h */,
 				0B1C17D121930A0400012CF7 /* AppDelegate.m */,
 				0B1C17D321930A0400012CF7 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				0B1C17F621930A0500012CF7 /* Info.plist */,
 			);
 			path = AxisGradientViewUITests;
+			sourceTree = "<group>";
+		};
+		0B1C180221930A1300012CF7 /* DevelopmentPod */ = {
+			isa = PBXGroup;
+			children = (
+				0B1C180421930A5E00012CF7 /* AxisGradientView.h */,
+				0B1C180321930A5E00012CF7 /* AxisGradientView.m */,
+			);
+			path = DevelopmentPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1C180521930A5E00012CF7 /* AxisGradientView.m in Sources */,
 				0B1C17D521930A0400012CF7 /* ViewController.m in Sources */,
 				0B1C17E021930A0500012CF7 /* main.m in Sources */,
 				0B1C17D221930A0400012CF7 /* AppDelegate.m in Sources */,
